@@ -2,7 +2,7 @@
 title: SungHee's Blog
 description: Real, Now, Fantasy Coding
 url: https://sunghere.github.io/
-logo: my.png                                       # Site logo
+logo: my.jpg                                       # Site logo
 locale: ko_Kr
 
 # Left Block Images
@@ -29,11 +29,11 @@ sass:
 #google-analytics: UA-XXXXX-Y
 
 # Social Links
-#email:             email
+email:              cisisn@naver.com
 #google.plus:        username
 twitter:            Sunghee____
 facebook:           sunghee4
-github:             username
+github:             sunghere
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
 #xing:              username
@@ -52,7 +52,7 @@ github:             username
 #keybase:           username
 #xmpp:              username@server.com
 #hackernews:        username
-behance:           username
+#behance:           username
 
 # Gems
 gems:
