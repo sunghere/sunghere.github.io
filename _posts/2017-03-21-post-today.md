@@ -1,12 +1,10 @@
 ---
+layout: post
 
-layout : post
-
-title : Today 
-comments: true
-categories:
+title : "Today" 
 tags:
   - daily
 ---
+
 
 Fun & Fastic Coding ~!
