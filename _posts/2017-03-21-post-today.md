@@ -1,7 +1,7 @@
 ---
 layout: post
-
-title : "Today" 
+title : "Today"
+comment : true
 tags:
   - daily
 ---
