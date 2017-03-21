@@ -26,7 +26,7 @@ sass:
   style:            compressed
 
 # Google Analytics
-#google-analytics: UA-XXXXX-Y
+google-analytics: UA-94087209-1
 
 # Social Links
 email:              cisisn@naver.com
