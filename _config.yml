@@ -54,6 +54,8 @@ github:             sunghere
 #hackernews:        username
 #behance:           username
 
+#disqus
+disqus:sunghere-github-io-1
 # Gems
 gems:
   - jekyll-feed
