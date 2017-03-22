@@ -55,10 +55,10 @@ github:             sunghere
 #behance:           username
 
 # Gems
-#gems:
-#  - jekyll-feed
-#  - jekyll-sitemap
-#  - jekyll-gist
+gems:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-gist
 
 # Exclude list
 include: [_pages]
