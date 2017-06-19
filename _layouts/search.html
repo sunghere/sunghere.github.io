@@ -39,9 +39,7 @@ layout: compress
 <input type="text" id="search-input" placeholder="search...">
 <div class="content">
         <ul class="posts-list">
-        {% for post in site.posts %}
-         
-          {% endfor %}
+        
         </ul>
       </div>
 </div>
@@ -54,14 +52,14 @@ layout: compress
         searchInput: document.getElementById('search-input'),
         resultsContainer: document.getElementById('posts-list'),
         json: '{{ site.baseurl }}/search2.json',
-        searchResultTemplate: ' <li>'+
+        searchResultTemplate: '<li>'+
             '<h2>'+
               '<a href="{url}" class="post-title">'+
-                '<span>{{ post.title | markdownify | remove: "<p>" | remove: "</p>" }}</span>'+
+                '<span>{{ title | markdownify | remove: "<p>" | remove: "</p>" }}</span>'+
               '</a>'+
-              '<span class="date">{{ date | date: '%d %b %Y' }}</span>'+
+              '<span class="date">{{ date | date: "%d %b %Y" }}</span>'+
             '</h2>'+
-            '<p>{{ post.excerpt | strip_html | truncatewords:10 }}</p>'+
+            '<p></p>'+
             '<ul class="tags">'+
             '{% for tag in tags %}'+
               '<li><a href="{url}/tags#{{ tag }}">{{ tag }}</a></li>'+
