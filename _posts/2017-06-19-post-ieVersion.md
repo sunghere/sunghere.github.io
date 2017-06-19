@@ -22,18 +22,19 @@ var getInternetExplorerVersion = function() {
 				var re = new RegExp("MSIE ([0-9]{1,}[\.0-9]{0,})");
 				if (re.exec(ua) != null)
 					rv = parseFloat(RegExp.$1);
-			}
+				}
 			else if (navigator.appName == 'Netscape') {
 				var ua = navigator.userAgent;
 				var re = new RegExp("Trident/.*rv:([0-9]{1,}[\.0-9]{0,})");
 				if (re.exec(ua) != null)
 					rv = parseFloat(RegExp.$1);
-			}
+				}
 			return rv;
-		}
+			}
 			var useragent = navigator.userAgent;
 
 			if (useragent.toUpperCase().indexOf("WINDOW") > 0 && IEVERSION < 11 && IEVERSION > -1) {
-				
+					//이곳이 바로 걸리는 부분
 			}
+		} // end
 ```
