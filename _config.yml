@@ -1,6 +1,6 @@
 # Site
 title: SungHee's Blog
-description: Real, Now, Fantasy Coding
+description: Coding is love
 url: https://sunghere.github.io/
 logo: my.jpg                                       # Site logo
 locale: ko_Kr
@@ -53,13 +53,13 @@ github:             sunghere
 #xmpp:              username@server.com
 #hackernews:        username
 #behance:           username
-
+paginate: 5
 # Gems
 gems:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-gist
-
+  - jekyll-paginate
 # Exclude list
 include: [_pages]
 exclude: [README.md, Gemfile, Gemfile.lock, _site, src, vendor, CNAME, LICENSE, Rakefile, .sass-cache, .DS_Store]
