@@ -1,6 +1,6 @@
 ---
 layout: post
-title: java script IE 버전 체크
+title: javascript IE 버전 체크
 tags:
   - java
   - javascript
@@ -11,7 +11,7 @@ published: true
 
 
 
-## 인터넷 버전을 체크하는 자바스크립트
+## IE 버전을 체크하는 자바스크립트
 
 >아래와 같이 작성하면 괄호속에서 IE버전이 11보다 낮은경우가 걸러진다.
 

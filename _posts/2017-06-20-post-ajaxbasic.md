@@ -1,6 +1,6 @@
 ---
 layout: post
-title: java ajax 기본 세팅
+title: javascript ajax 기본 세팅
 tags:
   - java
   - javascript
