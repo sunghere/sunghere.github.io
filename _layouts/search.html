@@ -44,7 +44,7 @@ layout: compress
         searchResultTemplate: '<li>'+
             '<h2>'+
               '<a href="{url}" class="post-title">'+
-                '<span>{{ title | markdownify | remove: "<p>" | remove: "</p>" }}</span>'+
+                '<span>{title}</span>'+
               '</a>'+
               '<span class="date">{{ date | date: "%d %b %Y" }}</span>'+
             '</h2>'+
