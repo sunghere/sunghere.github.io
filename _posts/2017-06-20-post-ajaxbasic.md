@@ -1,15 +1,16 @@
 ---
 layout: post
-title : "java ajax 기본 세팅"
+title: java ajax 기본 세팅
 tags:
   - java
   - javascript
   - JQuery
+published: true
 ---
 
 
 
-##인터넷 버전을 체크하는 자바스크립트
+### Ajax 기본세팅
 
 ajax의 기본틀 해당틀을 복사해서 사용한다면 편리하다.
 
@@ -42,10 +43,8 @@ var ajax = function () {
                                 } 
                                 // each 종료
                             }
-                        }
-                    }
-                }
-              })
+                    } // 성공(SUCS)일경우 End
+                  } // Success End
+              }); // ajax End
             }
 ```
-            
