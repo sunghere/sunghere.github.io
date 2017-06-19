@@ -1,0 +1,24 @@
+var getdeliveryList = function () {
+			var firstidx = "";
+			var strHtml = "";
+			var user_fulladdr = "";
+			$.ajax({
+				type: 'POST', // POST 로 전송
+				dataType: 'text json', // JSON 타입이 아닐경우 제거
+				contentType: 'application/json; charset=utf-8',
+				url: '/order/delivery_proc.aspx', // 호출 URL
+				data: JSON.stringify({
+					'mode': 'getdeliverylist', "Top": "5"
+				}), // 파라메터 정보 전달,
+				cache: false,
+				success: function (data) {
+					var jsonObj = JSON.parse(data.List);
+					if (data.result == "000") {
+						if (data.List == "" || data.List == null || data.List == "null")
+						{
+							return;
+						}
+						else
+						{
+							if (jsonObj.Table.length > 0) {
+								$.each(jsonObj.Table, function (index, item) {
