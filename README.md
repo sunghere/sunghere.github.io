@@ -1,7 +1,5 @@
-# Halve  [![Donate](https://img.shields.io/badge/paypal-donate-blue.svg)](https://www.paypal.me/taylantatli/0usd)  
+# Sunghere Blog  [![Donate](https://img.shields.io/badge/paypal-donate-blue.svg)](https://www.paypal.me/sunghere)  
   
-## `Sorry guys but there will be no update until I buy a new laptop.`
-
 This theme is Jekyll port of [vangeltzo.com](http://vangeltzo.com/) (by [Vangelis Tzortzis](https://github.com/srekoble)).
 
 To learn how to install and use this theme check out the [installation guide](https://taylantatli.github.io/Halve/halve-theme/) for more information.

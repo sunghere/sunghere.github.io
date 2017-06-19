@@ -2,11 +2,7 @@
 layout: post
 title : "Today"
 tags:
-  - daily
+  - test
 ---
 
-
-Fun Coding ~!
-
-
-TES T
+첫글은 Hello world 

@@ -1,7 +1,7 @@
 ---
 layout: home
 ---
-# Java, JavaScript, Server, JQuery Blog
+# Java, JavaScript, Server, JQuery, Spring
 
-
+lover Coding
 
