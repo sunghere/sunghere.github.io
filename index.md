@@ -1,7 +1,7 @@
 ---
 layout: home
 ---
-# Java, JavaScript, Server, JQuery, Spring
+# Java, JSP, Server, Spring FrameWork, Mybatis, JQuery
 
 lover Coding
 
