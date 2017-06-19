@@ -1,6 +1,6 @@
 ---
 layout: post
-title : "java ajax basic"
+title : "java ajax 기본 세팅"
 tags:
   - java
   - javascript
@@ -9,7 +9,7 @@ tags:
 
 
 
-**인터넷 버전을 체크하는 자바스크립트
+##인터넷 버전을 체크하는 자바스크립트
 
 ajax의 기본틀 해당틀을 복사해서 사용한다면 편리하다.
 
