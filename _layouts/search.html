@@ -21,16 +21,6 @@
       <span></span>
     </a>
 
-    <div id="results">
-      <h1>
-        <!-- `key` listing for `value` -->
-      </h1>
-
-      <ul class="results">
-        <!-- results lists -->
-      </ul>
-    </div>
-
     <!— Html Elements for Search -->
     <div id="search-container">
       <input type="text" id="search-input" placeholder="search...">
@@ -45,7 +35,7 @@
       SimpleJekyllSearch({
         searchInput: document.getElementById('search-input'),
         resultsContainer: document.getElementById('results-container'),
-        json: {{ site.url }}+'/search2.json',
+        json: '{{site.url}}/search2.json',
         searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
         noResultsText: 'No results found',
         limit: 10,
