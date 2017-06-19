@@ -121,7 +121,20 @@ canvas {
     position: fixed;
   }
 }
-
+#search-input {
+     border-radius: 10px;
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    margin: 5px;
+    background-color: black;
+    color: white;
+    font-weight: 900;
+    text-align: right;
+    position: absolute;
+    top: 100px;
+    right: 150px; 
+}
 .posts-menu-icon {
   position: absolute;
   top: 30px;
