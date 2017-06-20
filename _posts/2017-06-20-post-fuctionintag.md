@@ -1,9 +1,9 @@
 ---
-published: false
+layout: post
+title : "자바스크립트 inner html 태그안 function안에 실제값넣기"
+tags: 
+  - javascript
 ---
-## A New Post
-
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
 
 ## inner html로 넣어주는 문자의 태그안에서 javascript의 변수를 동적으로 변경하여 넣어주고싶을 때가 있을것이다.
 
@@ -20,7 +20,7 @@ inner_text += "<button type='button'' onclick='myfunction("+value+")'>";
 
 ```
 
-value1,value2값들이 변수로 인식되어 버려 해당문제가 발생한다.
+value 값이 변수로 인식되어 버려 해당 문제가 발생 한다.
 
 ### 해당문제를 해결해주려면 코드를 아래와 같이 수정하여 주면 정상 작동된다.
 
