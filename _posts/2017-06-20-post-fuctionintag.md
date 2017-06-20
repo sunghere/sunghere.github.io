@@ -5,7 +5,7 @@ tags:
   - javascript
 ---
 
-## inner html로 넣어주는 문자의 태그안에서 javascript의 변수를 동적으로 변경하여 넣어주고싶을 때가 있을것이다.
+#### inner html로 넣어주는 문자의 태그안에서 javascript의 변수를 동적으로 변경하여 넣어주고싶을 때가 있을것이다.
 
 그러나 많이 마주치게되는 문제가 있다.
 
@@ -22,7 +22,7 @@ inner_text += "<button type='button'' onclick='myfunction("+value+")'>";
 
 value 값이 변수로 인식되어 버려 해당 문제가 발생 한다.
 
-### 해당문제를 해결해주려면 코드를 아래와 같이 수정하여 주면 정상 작동된다.
+#### 해당문제를 해결해주려면 코드를 아래와 같이 수정하여 주면 정상 작동된다.
 
 ```javascript
 inner_text += "<a href='#' onclick='myfunction("+value+")'>";
