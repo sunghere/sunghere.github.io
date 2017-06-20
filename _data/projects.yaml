@@ -5,7 +5,7 @@
 
 - title: todolist - spring boots , JDBC(H2)
   url: https://github.com/sunghere/todolist
-  image: /images/crowd_main.png
+  image: /images/todolist.png
   completed: true
 
 - title : doblue - portpolio site, rest, spring boots,mybatis
