@@ -1,5 +1,5 @@
 - title: Responsible Crowd Funding web Site - Spring 4.3.7, tiles, mySQL & Oracle
-  url: http://www.doblue.ga
+  url: http://www.doblue.ga/mirae
   image: /images/crowd_main.png
   completed: true
 
@@ -8,7 +8,7 @@
   image: /images/todolist.png
   completed: true
 
-- title : doblue - portpolio site, rest, spring boots,mybatis
-  url: http://www.doblue.ga/doblue
+- title : doblue - portfolio site, rest, spring boots,mybatis
+  url: http://www.doblue.ga
   image: /images/doblue.png
   completed: false
